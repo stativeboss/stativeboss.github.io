@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'RTL Design Using SKY130 Notes'
+title: 'RTL Design Using SKY130: Notes'
 ---
 
 # SKY130_RTLDSN_WRKSHP
