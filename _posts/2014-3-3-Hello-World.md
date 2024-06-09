@@ -37,7 +37,6 @@ This repo aims to make a record of the labs performed while briefing on what is 
 - [Labs on Incomplete Overlapping If case](#labs-on-incomplete-overlapping-if-case)
 - [For loop and For generate](#for-loop-and-for-generate)
 - [Labs on For loop and For generate](#labs-on-for-loop-and-for-generate)
----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Introduction to open-source Verilog simulator iverilog
 
