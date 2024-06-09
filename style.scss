@@ -15,9 +15,9 @@ html {
 }
 
 body {
-  background: $white;
+  background: $background-dark;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $text-light;
 }
 
 .container {
@@ -29,7 +29,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $text-light;
   font-weight: bold;
 
   line-height: 1.7;
@@ -58,7 +58,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $gray-dark;
 }
 
 p {
@@ -66,11 +66,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $primary-dark;
   text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $secondary-dark;
   }
 }
 
@@ -114,17 +114,17 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $gray-dark;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: $text-dark;
+  background: $surface-dark;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: $text-dark;
+  background: $surface-dark;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -153,7 +153,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $border-dark;
 
   @include mobile {
     text-align: center;
@@ -189,7 +189,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $text-light;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -199,7 +199,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $gray-dark;
   font-size: 16px;
 
   @include mobile {
@@ -222,14 +222,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $text-light;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $primary-dark;
     }
   }
 }
@@ -240,7 +240,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 1em; /* Reduced padding */
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $border-dark;
 }
 
 .posts > .post:last-child {
@@ -251,9 +251,9 @@ nav {
 .post {
   blockquote {
     margin: 1.2em .8em; /* Reduced margin for blockquotes */
-    border-left: 2px solid $gray;
+    border-left: 2px solid $gray-dark;
     padding: 0.1em 1em;
-    color: $gray;
+    color: $gray-dark;
     font-size: 20px; /* Reduced font size */
     font-style: italic;
   }
@@ -270,9 +270,9 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  border-top: 1px solid $border-dark;
+  border-bottom: 1px solid $border-dark;
+  background-color: $surface-dark;
 }
 
 footer {
