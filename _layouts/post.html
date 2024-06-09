@@ -2,16 +2,13 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    {{ content }}
-  </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
-</article>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+      <h1><a href="#" class="toggle-post">{{ post.title }}</a></h1>
+      <div class="entry" style="display: none;">
+        {{ post.content }}
+      </div>
+    </article>
+  {% endfor %}
+</div>
