@@ -47,4 +47,21 @@
 
     {% include analytics.html %}
   </body>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const toggleLinks = document.querySelectorAll('.toggle-post');
+
+    toggleLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const postEntry = this.parentElement.nextElementSibling;
+        if (postEntry.style.display === "none" || postEntry.style.display === "") {
+          postEntry.style.display = "block";
+        } else {
+          postEntry.style.display = "none";
+        }
+      });
+    });
+  });
+</script>
 </html>
