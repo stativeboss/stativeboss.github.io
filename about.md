@@ -8,7 +8,7 @@ Hey! I am Shiva. I am a verification engineer by profession. I also teach maths.
 
 ### More Information
 
-I did my B.Tech in Electrical Engineering from IIT(ISM), Dhanbad, and M.Tech in Power Electronics from NIT, Trichy. I worked with Thermax for an year (where I worked on a fuel cell project) and later with Mojo Green (where I worked on fast chargers for EV4Ws). I've been working as verification engineer with the R&D team of VIP product line at Siemens EDA since August 2022.
+I did my B.Tech in Electrical Engineering from IIT(ISM), Dhanbad, and M.Tech in Power Electronics from NIT, Trichy. I worked with Thermax for an year (where I worked on a fuel cell project) and later with Mojo Green (where I worked on fast chargers for EV4Ws). I've been working as verification engineer with the R&D team of the VIP product line at Siemens EDA since August 2022.
 
 ### Contact me
 
