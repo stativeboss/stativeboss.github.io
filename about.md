@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hey! I am Shiva. I am a verification engineer by profession. I also teach maths. During my free time I like exploring about ancient Indian philosophies, learn a thing or two about Indian history, or simply binge watch some series (probably some k-drama) or an anime. I like playing chess too!   
 
 ### More Information
 
