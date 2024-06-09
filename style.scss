@@ -247,25 +247,35 @@ nav {
   padding-bottom: 0.5em; /* Further reduced padding for the last post */
   border-bottom: none;
 }
+.posts > .post {
+  padding-bottom: 1em;
+  border-bottom: 1px solid $lightGray;
+}
 
-.post {
-  blockquote {
-    margin: 1.2em .8em; /* Reduced margin for blockquotes */
-    border-left: 2px solid $gray-dark;
-    padding: 0.1em 1em;
-    color: $gray-dark;
-    font-size: 20px; /* Reduced font size */
-    font-style: italic;
-  }
+.post:last-child {
+  border-bottom: none;
+}
 
-  .comments {
-    margin-top: 5px; /* Reduced margin for comments section */
-  }
+.post-details {
+  display: none; /* Hide post details initially */
+}
 
-  .read-more {
-    text-transform: uppercase;
-    font-size: 14px; /* Reduced font size */
+.post-title {
+  font-size: 20px;
+  margin-bottom: 0.5em; /* Adjust margin as needed */
+}
+
+.post-title a {
+  color: $blue;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover, &:active {
+    color: $darkBlue;
   }
+}
+
+.read-more {
+  display: none; /* Hide read more link */
 }
 
 .wrapper-footer {
